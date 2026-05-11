@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app@latest . --ts --tailwind --eslint --app --no-src-dir --import-alias \"@/*\" --yes)",
+      "Bash(npx create-next-app@latest . --ts --tailwind --eslint --app --no-src-dir --import-alias \"@/*\" --yes --name bgeraser)",
+      "Read(//c/Users/yaoka/Desktop/Projects/**)",
+      "Bash(npx create-next-app@latest bgeraser-tmp --ts --tailwind --eslint --app --no-src-dir --import-alias \"@/*\" --yes)",
+      "Bash(xcopy /E /H /Y \"c:\\\\Users\\\\yaoka\\\\Desktop\\\\Projects\\\\bgeraser-tmp\\\\*\" \"c:\\\\Users\\\\yaoka\\\\Desktop\\\\Projects\\\\BGEraser\\\\\" 2>&1 && rmdir /S /Q \"c:\\\\Users\\\\yaoka\\\\Desktop\\\\Projects\\\\bgeraser-tmp\" 2>&1)"
+    ]
+  }
+}
